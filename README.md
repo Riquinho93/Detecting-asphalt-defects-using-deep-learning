@@ -10,7 +10,7 @@ Keywords: Yolo, object detection, Deep learning.
 
 ## Contents
 
-- [Introduction](#introduction)
+ [Introduction](#introduction)
 - 1.1 Framework 
 - 1.2 Objectives 
 - 1.3 Structure of the document 
@@ -64,11 +64,11 @@ Chapter 6
 - 6.2 Future work 
 
 
-Introduction
+# Introduction
 
 Chapter 1 is dedicated to an introduction to the theme of the work, describing the general ideas of the problem and its importance. In addition, the objectives of the work and a structure of the report are explicit.
 
-1.1 Framework
+## 1.1 Framework
 
 According to the World Bank, referenced in the G1 [1], among the main world economies, Brazil has the highest concentration of road transport for passengers and passengers. Not Brazil, 58% of cargo transport is carried out by road - then we have Australia with 53%, China with 50%, Russia with 43% and 8% in Canada. Finally, a road network is used to transport 75% of production in Brazil. These data report the great importance of highways for countries.
 
@@ -91,7 +91,7 @@ DL can act as a voice assistant, understand a sentence of a sentence to be able 
 These are some of the other applications that make DL fascinating. Throughout the document, what is and how deep learning works is detailed, in addition to explaining in detail the proposal chosen in this work.
 
 
-1.2 Objective
+## 1.2 Objective
 
 In general, the objective of this work is to explore convolutional neural networks capable of detecting defects in asphalts through digital images and videos. Specifically, this work aims to:
 
@@ -100,7 +100,7 @@ In general, the objective of this work is to explore convolutional neural networ
 - Implement and train with different algorithms for detecting objects in the collected data sets.
 - Evaluate and compare the results for the continuation of future work.
 
-1.3 Document structure
+## 1.3 Document structure
 
 This document has a total of six chapters and is organized as follows:
 In the first chapter, the introductory phase of the project is explained by contextualizing the framework, objective and structure of the report.
