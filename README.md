@@ -1,62 +1,64 @@
 # Detecting asphalt defects using deep learning
 
-Abstract
+## Abstract
+
 Repairing defects present in road asphalt is an important task to increase the comfort and safety of road users. In addition, it allows to avoid intense levels of wear on the asphalt, which also lead to higher repair costs. In many cases, those responsible for paved road maintenance notice or observe road defects only when a serious accident occurs. And this could be avoided if there was greater concern with detecting and quickly repairing these irregularities on the highways. A more economical and profitable way is to prevent these road failures from becoming an obstacle. For this, it is necessary to identify the defects even before an accident occurs to defray the cost of maintenance and insecurity problems on the highways. Automating this process with object recognition techniques can bring greater safety in traffic, due to a better organization of roads that need maintenance. The objective of this work is to build a defect recognition algorithm in digital images and videos of asphalts through Deep learning. We will use Yolo as our object detector, as it can predict objects in a few seconds. Our dataset consists of 613 images, spread over 317 crack images and 296 hole images. Although defect recognition is considered a difficult task, we obtained an average accuracy of 96% in our best model.
+
 
 Keywords: Yolo, object detection, Deep learning.
 
 
-Contents
+## Contents
 
-Chapter 1 - Introduction 
-1.1 Framework 
-1.2 Objectives 
-1.3 Structure of the document 
+- [Chapter 1 - Introduction](Chapter1-Introduction)
+- 1.1 Framework 
+- 1.2 Objectives 
+- 1.3 Structure of the document 
 Chapter 2 
-2.1 Artificial Intelligence 
-2.1.1 How does AI learn? 
-2.2 Computer vision 
-2.3 Machine Learning 
-2.3.1 Tasks performed by machine learning 
-2.4 Artificial neural networks 
-2.5 Convolutional neural networks 
-2.5.1 Convolution Operation 
-2.5.2 Activation function 
-2.5.3 Hyper parameters 
-2.5.4 Transfer Learning 
-2.6 Object Detection 
-2.6.1 Yolo 
-2.6.2 Yolov4 
-2.7 Metrics 
-2.7.1 Parameters in Object Detection 
-2.7.2 Intersection over union (IoU) 
-2.7.3 Precision 
-2.7.4 Recall 
-2.7.5 Average Accuracy (AP) 
-2.7.6 mAP (mean average precision) 
-2.7.7 F1-Score 
+- 2.1 Artificial Intelligence 
+- 2.1.1 How does AI learn? 
+- 2.2 Computer vision 
+- 2.3 Machine Learning 
+- 2.3.1 Tasks performed by machine learning 
+- 2.4 Artificial neural networks 
+- 2.5 Convolutional neural networks 
+- 2.5.1 Convolution Operation 
+- 2.5.2 Activation function 
+- 2.5.3 Hyper parameters 
+- 2.5.4 Transfer Learning 
+- 2.6 Object Detection 
+- 2.6.1 Yolo 
+- 2.6.2 Yolov4 
+- 2.7 Metrics 
+- 2.7.1 Parameters in Object Detection 
+- 2.7.2 Intersection over union (IoU) 
+- 2.7.3 Precision 
+- 2.7.4 Recall 
+- 2.7.5 Average Accuracy (AP) 
+- 2.7.6 mAP (mean average precision) 
+- 2.7.7 F1-Score 
 Chapter 3 
-3.1 Project development stages 
-3.2 Database 
-3.3 Tools used 
-3.4 Deployment in a Cloud Environment 
+- 3.1 Project development stages 
+- 3.2 Database 
+- 3.3 Tools used 
+- 3.4 Deployment in a Cloud Environment 
 Chapter 4 
-4.1 Pre-trained model 
-4.2 Configuration of files and hyper parameters 
-4.2.1 Configure the .cfg file 
-4.2.2 Configure obj.names 
-4.2.3 Configure train.txt and test.txt 
-4.3 Training 
+- 4.1 Pre-trained model 
+- 4.2 Configuration of files and hyper parameters 
+- 4.2.1 Configure the .cfg file 
+- 4.2.2 Configure obj.names 
+- 4.2.3 Configure train.txt and test.txt 
+- 4.3 Training 
 Chapter 5 
-5.1 Dataset Analyzes 
-5.2 Results between versions of yolo 
-5.3 Testing with everyday data 
-5.4 Test with possible obstacles for model 
-5.5 Analysis of tests with videos 
-5.6 Observations and analysis of results 
+- 5.1 Dataset Analyzes 
+- 5.2 Results between versions of yolo 
+- 5.3 Testing with everyday data 
+- 5.4 Test with possible obstacles for model 
+- 5.5 Analysis of tests with videos 
+- 5.6 Observations and analysis of results 
 Chapter 6 
-6.1 Recap and final remarks of the project 
-6.2 Future work 
+- 6.1 Recap and final remarks of the project 
+- 6.2 Future work 
 
 
 Chapter 1 - Introduction
