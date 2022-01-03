@@ -52,6 +52,7 @@ Chapter 4
 - 4.2.2 Configure obj.names 
 - 4.2.3 Configure train.txt and test.txt 
 - 4.3 Training 
+
 Chapter 5 
 - 5.1 Dataset Analyzes 
 - 5.2 Results between versions of yolo 
@@ -59,6 +60,7 @@ Chapter 5
 - 5.4 Test with possible obstacles for model 
 - 5.5 Analysis of tests with videos 
 - 5.6 Observations and analysis of results 
+
 Chapter 6 
 - 6.1 Recap and final remarks of the project 
 - 6.2 Future work 
