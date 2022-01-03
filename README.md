@@ -10,10 +10,11 @@ Keywords: Yolo, object detection, Deep learning.
 
 ## Contents
 
-- [Chapter 1 - Introduction](Chapter1-Introduction)
+- [Introduction](#introduction)
 - 1.1 Framework 
 - 1.2 Objectives 
 - 1.3 Structure of the document 
+
 Chapter 2 
 - 2.1 Artificial Intelligence 
 - 2.1.1 How does AI learn? 
@@ -37,11 +38,13 @@ Chapter 2
 - 2.7.5 Average Accuracy (AP) 
 - 2.7.6 mAP (mean average precision) 
 - 2.7.7 F1-Score 
+
 Chapter 3 
 - 3.1 Project development stages 
 - 3.2 Database 
 - 3.3 Tools used 
 - 3.4 Deployment in a Cloud Environment 
+
 Chapter 4 
 - 4.1 Pre-trained model 
 - 4.2 Configuration of files and hyper parameters 
@@ -61,7 +64,7 @@ Chapter 6
 - 6.2 Future work 
 
 
-Chapter 1 - Introduction
+Introduction
 
 Chapter 1 is dedicated to an introduction to the theme of the work, describing the general ideas of the problem and its importance. In addition, the objectives of the work and a structure of the report are explicit.
 
