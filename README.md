@@ -103,11 +103,17 @@ In general, the objective of this work is to explore convolutional neural networ
 ## 1.3 Document structure
 
 This document has a total of six chapters and is organized as follows:
+
 In the first chapter, the introductory phase of the project is explained by contextualizing the framework, objective and structure of the report.
+
 The second chapter is intended to produce scientific knowledge about the proposed solution to solve the problem. Among them are approaches and concepts on Artificial Intelligence, Computer Vision, Machine Learning, Deep Learning, architecture of used models and metrics.
+
 The third chapter is responsible for detailing the tools used in the project, in addition to the step-by-step diagram to successfully complete the work and information about the database.
+
 The fourth chapter is the development of the work, that is, the project implementation is described in sequence. This includes the files and settings that were made for a job run.
+
 The fifth chapter represents an evaluation phase of the algorithm using metrics such as mAP and IoU. Also, there are several comparisons between the models chosen for the resolution of the project proposal.
+
 The sixth chapter is the conclusion of all the work, prompting the undoing and the next step of the project.
 
 
