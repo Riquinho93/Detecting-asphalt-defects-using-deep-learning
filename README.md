@@ -158,4 +158,4 @@ The human being, in general, has no difficulty in identifying and classifying an
 
 To explain this concept, see Figure 1. In part A, we have the data with a 25-bit set of information, together with an associated label. In part B, it is the test pattern of the model trained with data from part A. In this simple situation, it is possible to notice distortions in the results, illustrated by the test patterns (2) and (3). Especially, these problems arise where the test pattern is displaced or disoriented from the appropriate training set pattern, as is the case with the test pattern (6).
 
-      However, there are some solutions to these problems, for example, standardizing the images in some way to make the test pattern as close as possible to a restricted set of patterns in the training set. One of them would be to normalize the position and orientation of any 2D image object.
+However, there are some solutions to these problems, for example, standardizing the images in some way to make the test pattern as close as possible to a restricted set of patterns in the training set. One of them would be to normalize the position and orientation of any 2D image object.
