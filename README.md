@@ -15,7 +15,7 @@ Keywords: Yolo, object detection, Deep learning.
 - 1.2 Objectives 
 - 1.3 Structure of the document 
 
-Chapter 2 
+[Context and Technologies](#Context and Technologies) 
 - 2.1 Artificial Intelligence 
 - 2.1.1 How does AI learn? 
 - 2.2 Computer vision 
@@ -119,3 +119,42 @@ The fifth chapter represents an evaluation phase of the algorithm using metrics 
 The sixth chapter is the conclusion of all the work, prompting the undoing and the next step of the project.
 
 
+# Context and Technologies
+
+This chapter describes the contents related to the problem solving knowledge area. Among them are artificial intelligence, computer vision, machine learning, artificial and convolutional neural networks, object detection, introduction to Yolo and evaluation metrics.
+
+## 2.1 Artificial intelligence
+
+Gooddfellow, Bengio and Courville [5] define Artificial Intelligence (AI) as a thriving field with many practical applications and active research topics. This technology is seen as a way to automate routine work, understand speech or image, make medical diagnoses, and support basic scientific research. AI is not only the machine's ability to learn and understand from experience, but also to acquire and retain knowledge in models, containing the ability to respond quickly and accurately to new situations.
+
+### 2.1.1 How does AI learn?
+
+There are many ways to define intelligence, but Mueller and Massaron [30] describe certain norms that involve mental activities:
+- Learning: having the ability to obtain and process new information.
+- Reasoning: Being able to manipulate information in various ways.
+- Understanding: Interpreting the results of the manipulation of information.
+- Capture truths: Determine the validity of the manipulated information.
+- Seeing relationships: Guessing how validated data interacts with other data.
+- Considering meanings: Applying truths to particular situations in a way consistent with your relationship.
+- Separating fact from belief: determining whether the data is adequately supported by verifiable sources that can be demonstrated to be consistently valid.
+
+To accomplish these steps, the computer system follows an imitation process as part of a simulation:
+
+I. Set a goal based on needs or wants.
+II. Assess the value of any information currently known in support of the goal.
+III. Gather additional information that can support the goal.
+IV. Manipulate the data so that it achieves a form consistent with existing ones in formation.
+V. Define the true relationships and values between the existing and the new in formation.
+VI. Determine whether the goal has been achieved.
+VII. Modify the goal in light of the new data and its effect on the probability of success.
+
+Repeat steps II to VII as needed until the goal is reached (considered true) or the possibilities of reaching it run out (considered false).
+
+## Computer vision
+
+The human being, in general, has no difficulty in identifying and classifying an object, can identify a sofa anywhere, with its various shapes (large, small, round, square, tall or short) and regardless of its position, horizontal or vertical. However, the machine does not have the same facility as us humans, for the machine it is necessary to go through a lot of training and with a large amount of example data to be able to identify and differentiate the objects. In other words, the difference between a person's learning from a computer is that if a person shows them an object and says it's a sofa, they can already identify other forms of sofas, regardless of whether it's day or night, from the first reference that you were taught. The machine, on the other hand, has difficulty in identifying an object if it is not given all the necessary information so that it can learn, for example, sofas during the day and at night. And the data should have little noise, or no noise at all, for there to be interference in the final result. This part of machine learning with images or videos is explained by computer vision. We will list 3 standard computer vision problems mentioned by Davies [31].
+
+### Problem 1 - The recognition process
+
+To explain this concept, see Figure 1. In part A, we have the data with a 25-bit set of information, together with an associated label. In part B, it is the test pattern of the model trained with data from part A. In this simple situation, it is possible to notice distortions in the results, illustrated by the test patterns (2) and (3). Especially, these problems arise where the test pattern is displaced or disoriented from the appropriate training set pattern, as is the case with the test pattern (6).
+      However, there are some solutions to these problems, for example, standardizing the images in some way to make the test pattern as close as possible to a restricted set of patterns in the training set. One of them would be to normalize the position and orientation of any 2D image object.
