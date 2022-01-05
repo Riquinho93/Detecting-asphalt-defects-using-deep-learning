@@ -15,7 +15,7 @@ Keywords: Yolo, object detection, Deep learning.
 - 1.2 Objectives 
 - 1.3 Structure of the document 
 
-[Context and Technologies](#Context and Technologies) 
+[Context and Technologies](#ContextandTechnologies) 
 - 2.1 Artificial Intelligence 
 - 2.1.1 How does AI learn? 
 - 2.2 Computer vision 
@@ -140,13 +140,13 @@ There are many ways to define intelligence, but Mueller and Massaron [30] descri
 
 To accomplish these steps, the computer system follows an imitation process as part of a simulation:
 
-I. Set a goal based on needs or wants.
-II. Assess the value of any information currently known in support of the goal.
-III. Gather additional information that can support the goal.
-IV. Manipulate the data so that it achieves a form consistent with existing ones in formation.
-V. Define the true relationships and values between the existing and the new in formation.
-VI. Determine whether the goal has been achieved.
-VII. Modify the goal in light of the new data and its effect on the probability of success.
+- I. Set a goal based on needs or wants.
+- II. Assess the value of any information currently known in support of the goal.
+- III. Gather additional information that can support the goal.
+- IV. Manipulate the data so that it achieves a form consistent with existing ones in formation.
+- V. Define the true relationships and values between the existing and the new in formation.
+- VI. Determine whether the goal has been achieved.
+- VII. Modify the goal in light of the new data and its effect on the probability of success.
 
 Repeat steps II to VII as needed until the goal is reached (considered true) or the possibilities of reaching it run out (considered false).
 
@@ -157,4 +157,5 @@ The human being, in general, has no difficulty in identifying and classifying an
 ### Problem 1 - The recognition process
 
 To explain this concept, see Figure 1. In part A, we have the data with a 25-bit set of information, together with an associated label. In part B, it is the test pattern of the model trained with data from part A. In this simple situation, it is possible to notice distortions in the results, illustrated by the test patterns (2) and (3). Especially, these problems arise where the test pattern is displaced or disoriented from the appropriate training set pattern, as is the case with the test pattern (6).
+
       However, there are some solutions to these problems, for example, standardizing the images in some way to make the test pattern as close as possible to a restricted set of patterns in the training set. One of them would be to normalize the position and orientation of any 2D image object.
